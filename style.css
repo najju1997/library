@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.book > div {
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+/* Styles for the pop-up form */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: #fefefe;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
